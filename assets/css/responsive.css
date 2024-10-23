@@ -1,0 +1,181 @@
+@media only screen and (min-width: 0rem) and (max-width: 767px) {
+    p{
+        font-size: 0.875rem;
+    }
+    .dataTables_filter{
+        margin-top: 10px;
+    }
+
+    /* ==========notification page========== */
+    .d2c_notification_content .d2c_notification_first_letter{
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 0.313rem;
+    }
+    .d2c_notification_content h5{
+        font-size: 0.813rem;
+    }
+    .d2c_notification_content p{
+        font-size: 0.75rem;
+    }
+    .d2c_notification_wrapper{
+        padding: 1rem !important;
+    }
+
+    /* timeline page */
+    .d2c_content_wrapper {
+        padding: 1.563rem 1.25rem 0rem;
+    }
+    .d2c_trading_chart_main::after{
+        display: none;
+    }
+    .d2c_trading_timeline_content .d2c_card_wrapper {
+        padding: 1.25rem 0rem 1.25rem 0rem !important;
+    }
+    .d2c_trading_timeline_content .d2c_years {
+        position: unset;
+        margin-bottom: 0.313rem;
+    }
+    .d2c_trading_journey_timeline .d2c_trading_timeline_content:first-child::after,
+    .d2c_trading_journey_timeline .d2c_trading_timeline_content:nth-child(3)::after {
+        display: none;
+    }
+    /* calender page */
+    .fc .fc-toolbar-title{
+        font-size: 1rem !important;
+    }
+    .d2c_event_calender thead a{
+        font-size: 0.75rem !important;
+    }
+    .fc-theme-standard th {
+        padding: 0.25rem !important;
+    }
+    /* login system(login,registration,forget password) */
+    .d2c_sign_up {
+        height: auto;
+        padding: 5.625rem 0rem;
+    }
+    .d2c_login_wrapper{
+        padding: 2.5rem 1.563rem;
+    }
+    .d2c_login_wrapper p{
+        font-size: 0.875rem;
+    }
+    /* error page */
+    .d2c_error_content{
+        padding: 2.5rem 1.563rem;
+    }
+    .d2c_error_content h1{
+        font-size: 6.875rem;
+    }
+    .d2c_error_content h3{
+        font-size: 1.5rem;
+    }
+    .d2c_error_content p{
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* timeline page */
+    .d2c_content_wrapper {
+        padding: 1.563rem 2.5rem 0rem;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* timeline page */
+    .d2c_content_wrapper {
+        padding: 1.563rem 1.25rem 0rem;
+    }
+
+    .d2c_trading_timeline_content .d2c_card_wrapper {
+        padding: 1.25rem !important;
+    }
+    .d2c_trading_journey_timeline {
+        padding: 0rem;
+    }
+    /* login system(login,registration,forget password) */
+    .d2c_login_wrapper{
+        padding: 2.5rem 1.563rem;
+    }
+    /* error page */
+    .d2c_error_content{
+        padding: 2.5rem 1.563rem;
+    }
+    .d2c_error_content h1{
+        font-size: 9.375rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* timeline page */
+    .d2c_content_wrapper {
+        padding: 1.563rem 1.25rem 0rem;
+    }
+    .d2c_trading_journey_timeline{
+        padding: 0rem;
+    }
+    .d2c_trading_timeline_content .d2c_card_wrapper {
+        padding: 0.625rem;
+    }
+    /* login system(login,registration,forget password) */
+    .d2c_login_wrapper{
+        padding: 2.5rem 1.875rem;
+    }
+    /* error page */
+    .d2c_error_content h1{
+        font-size: 9.375rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    .d2c_card_details h5{
+        font-size: 1rem;
+    }
+
+    .d2c_balance_card,.d2c_investment_card,.d2c_market_card,.d2c_basic_card{
+        width: 50%;
+    }
+    .d2c_balance_card_3,.d2c_market_overview_column,.d2c_buy_sell_column,.d2c_exchange_chart_and_table,.d2c_market_preview,.d2c_margin_trade,.d2c_exchange_chart,.d2c_investment_card_3,.d2c_market_volume_chart,.d2c_wallet_activity,.d2c_profile_right,.d2c_profile_details,.d2c_help_table,.d2c_horizontal_card,.d2c_basic_card_3{
+        width: 100%;
+    }
+    .d2c_margin_trade,.d2c_market_volume_chart,.d2c_wallet_activity,.d2c_help_table,.d2c_profile_details{
+        margin-bottom: 1.5rem !important;
+    }
+    .d2c_balance_transfer_wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .d2c_compose_btn{
+        font-size: 0.875rem;
+        padding: 0.5rem 0.5rem 0.438rem 0.5rem;
+    }
+
+    /* pagination page */
+    .d2c_custom_pagination .page-link{
+        font-size: 0.75rem;
+    }
+    /* timeline page */
+    .d2c_content_wrapper {
+        padding: 1.563rem 1.25rem 0rem;
+    }
+    .d2c_trading_timeline_content .d2c_card_wrapper {
+        padding: 1.25rem !important;
+    }
+    .d2c_trading_journey_timeline {
+        padding: 0rem;
+    }
+}
+
+
+/* 
+    Template Name: {{FundRows – Free Bootstrap Crypto Dashboard Template}}
+    Template URL: {{https://www.designtocodes.com/product/fundrows-free-crypto-dashboard-template/}}
+    Description: {{Build a user-friendly crypto dashboard with FundRows free crypto dashboard template. Enjoy full responsiveness, and customizable for your crypto projects. With FundRows, developers can create a unique crypto admin dashboard that is visually impressive.}}
+    Author: DesignToCodes
+    Author URL: https://www.designtocodes.com
+    Text Domain: {{ FundRows }}
+  */

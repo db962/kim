@@ -1,0 +1,1690 @@
+
+
+/* ---------------------------------------------------
+    error page
+----------------------------------------------------- */
+
+.d2c_error{
+    background: linear-gradient(0deg, rgba(98, 113, 235, 0.9), rgba(98, 113, 235, 0.9)),url(../images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.d2c_error_content{
+    padding: 3.125rem 3.75rem;
+    border-radius: var(--border-radius);
+    background: #EFFCF1;
+}
+.d2c_error_content h1{
+    font-size: 15rem;
+    text-shadow: 0.375rem 0.375rem 0rem rgba(98, 113, 235, 0.5);;
+}
+.d2c_error_content h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.d2c_error_content p{
+    font-size: 1.125rem;
+
+}
+
+/* ---------------------------------------------------
+    login system page and lock screen page
+----------------------------------------------------- */
+
+.d2c_login_system{
+    background: linear-gradient(0deg, rgba(98, 113, 235, 0.9), rgba(98, 113, 235, 0.9)),url(../images/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.d2c_login_wrapper{
+    padding: 3.125rem 3.75rem;
+    border-radius: var(--border-radius);
+    background: #EFFCF1;
+}
+.d2c_login_wrapper h4{
+    font-weight: 600;
+    color: var(--bs-primary);
+}
+.d2c_login_wrapper .d2c_link{
+    font-weight: 600;
+}
+form .form-check-input:checked{
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+form .input-group .btn{
+    background: rgba(208, 244, 218, 0.5);
+    border: none;
+    border-radius: 0rem 0.375rem 0.375rem 0rem;
+    font-size: 0.875rem;
+    padding: 0.688rem 0.938rem;
+    color: var(--text_color);
+}
+form .input-group .btn:active{
+    background: rgba(208, 244, 218, 0.5);
+}
+.d2c_login_wrapper .d2c_link_btn{
+    background: #D0F4DA;
+    border: 0.063rem solid rgba(229, 227, 242, 0.5);
+    border-radius: 0.313rem;
+    padding: 0.625rem 1.25rem;
+    color: var(--bs-success);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.d2c_login_wrapper .d2c_link_btn:hover{
+    color: var(--bs-secondary) !important;
+}
+.d2c_login_wrapper .d2c_link_btn:active{
+    border-color: rgba(166, 170, 180, 0.3) !important;
+}
+.d2c_lockscreen .d2c_user_avatar{
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    margin: 0rem auto 1.25rem auto;
+}
+
+/*---------------------------------------------------
+    Map page
+-----------------------------------------------------*/
+.d2c_map {
+    width: 80% !important;
+    height: 21.875rem;
+    margin: 0rem auto;
+}
+#world_map svg path{
+    fill: var(--bs-primary);
+}
+#usa_map svg path{
+    fill: var(--bs-danger);
+}
+#canada_map svg path{
+    fill: var(--bs-success);
+}
+#australia_map svg path{
+    fill: var(--bs-warning);
+}
+
+
+
+/*---------------------------------------------------
+    invoice page
+-----------------------------------------------------*/
+.d2c_invoice_header img {
+    width: 9.25rem;
+    object-fit: cover;
+}
+
+.d2c_print_btn{
+    padding: 0.25rem 0.938rem;
+}
+.d2c_create_invoice_btn:hover{
+    background: var(--bs-primary) !important;
+    color: var(--bs-white) !important;
+}
+
+/*---------------------------------------------------
+    Form page
+-----------------------------------------------------*/
+select{
+    color: rgba(35, 35, 35, 0.5) !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #e7f9ec;
+    border: none !important;
+}
+select:focus{
+    box-shadow: none !important;
+}
+form input[type="file"]{
+    padding: 0rem 1.25rem 0rem 0rem !important;
+}
+form input[type="file"]::-webkit-file-upload-button {
+    background: #D0F4DA;
+    color: rgba(35, 35, 35, 0.5);
+    padding: 1.25rem 1.875rem !important;
+    border-right: transparent;
+}
+.form-select{
+    background-color: rgba(208, 244, 218, 0.5);
+}
+form input[type="file"]:hover::-webkit-file-upload-button{
+    background: #D0F4DA !important;
+}
+.d2c_state_select{
+    height: 2.813rem;
+}
+/*---------------------------------------------------
+    table page
+-----------------------------------------------------*/
+
+#d2c_advanced_table_1_filter .form-control{
+    background: var(--bs-white);
+    border: 0.063rem solid #d3d3d3;
+    padding: 0.5rem 0.938rem;
+}
+#d2c_advanced_table_1_info,#d2c_advanced_table_2_length,#d2c_advanced_table_2_filter{
+    display: none;
+}
+.pagination {
+    --bs-pagination-color: var(--bs-secondary);
+    --bs-pagination-active-bg: var(--bs-primary);
+    --bs-pagination-active-border-color: var(--dark-theme-color);
+    
+}
+#d2c_advanced_table_1_wrapper .pagination{
+    justify-content: flex-start !important;
+}
+.table .pagination .page-link{
+    padding: 0.438rem 1.125rem;
+}
+.table .pagination .page-link:focus{
+    box-shadow: none;
+}
+.d2c_count_wrapper input{
+    background: rgba(208, 244, 218, 0.5);
+    border-radius: 0.375rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+}
+.d2c_count_wrapper input:focus-visible{
+    outline: none;
+}
+
+/*---------------------------------------------------
+    transfer page
+-----------------------------------------------------*/
+.d2c_balance_transfer {
+    border-radius: 0.375rem;
+}
+.d2c_balance_transfer p {
+    color: rgba(35, 35, 35, 0.5);
+}
+.d2c_balance_transfer select{
+    background-color: rgba(208, 244, 218, 0.5) !important;
+}
+
+/*---------------------------------------------------
+    Notification page
+-----------------------------------------------------*/
+
+.d2c_notification_content .d2c_notification_first_letter {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--border-radius);
+}
+.d2c_notification_content h5 {
+    font-size: 1.125rem;
+}
+.d2c_notification_content h5 a {
+    color: var(--bs-secondary);
+}
+.d2c_notification_content h6 {
+    font-size: 0.75rem;
+}
+.d2c_notification_content span i {
+    font-size: 0.5rem;
+    color: var(--bs-secondary);
+}
+.d2c_notification_content span.active i {
+    font-size: 0.5rem;
+    color: var(--bs-success);
+}
+.d2c_notification_wrapper {
+    border-color: rgba(13, 16, 36, 0.08) !important;
+}
+.d2c_notification .d2c_notification_wrapper:last-child {
+    border: none !important;
+}
+
+/*---------------------------------------------------
+    Support and help page
+-----------------------------------------------------*/
+.d2c_help{
+    background: rgba(98, 113, 235, 0.05);
+}
+.d2c_chat_box{
+    background: var(--bs-white);
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+}
+.d2c_chat_header{
+    background: rgba(246, 245, 255, 0.5);
+    border-bottom: 0.063rem solid rgba(229, 227, 242, 0.5);
+    padding: 0.938rem 1.25rem;
+}
+.d2c_chat_header .dropdown button:hover{
+    background: var(--bs-primary);
+    border-color: transparent !important;
+}
+.chat-messages {
+    padding: 1.25rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 30.5rem;
+    overflow-y: scroll;
+}
+.d2c_chat_footer .btn,.d2c_chat_footer .d2c_input_wrapper{
+    border: 0.063rem solid rgba(98, 113, 235, 0.2);
+    border-radius: 0.188rem;
+}
+.d2c_chat_footer .btn{
+    padding: 0.375rem 0.938rem;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+.d2c_chat_footer .btn:hover{
+    background: var(--bs-white);
+    color: var(--bs-primary);
+    border: 0.063rem solid rgba(98, 113, 235, 0.2) !important;
+}
+.d2c_chat_footer .btn:active{
+    border: 0.063rem solid rgba(98, 113, 235, 0.2);
+}
+.chat-message-left, .chat-message-right {
+    display: flex;
+    flex-shrink: 0;
+}
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.chat-message-wrapper p{
+    color: rgba(35, 35, 35, 0.5);
+}
+.d2c_chat_footer .form-control{
+    background: transparent !important;
+}
+
+/* Chrome, Edge, and Safari */
+.chat-messages::-webkit-scrollbar,
+.message_people_list::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+.chat-messages::-webkit-scrollbar-track,
+.message_people_list::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.chat-messages::-webkit-scrollbar-thumb,
+.message_people_list::-webkit-scrollbar-thumb {
+    background-color: #eeeeee;
+    border-radius: 0.625rem;
+    border: 0.125rem solid #ffffff;
+}
+
+
+/* ---------------------------------------------------
+    FAQ page
+----------------------------------------------------- */
+
+.d2c_faq_main{
+    margin-bottom: 1.25rem;
+}
+.accordion-button{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--bs-secondary);
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    box-shadow: none !important;
+    padding-right: 2.813rem;
+    background: transparent;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background: transparent;
+    color: var(--bs-primary);
+}
+.accordion-item{
+    border: 0.063rem solid var(--bs-primary) !important;
+    border-radius: var(--border-radius) !important;
+}
+.accordion-body{
+    border-top: 0.063rem solid var(--bs-primary);
+}
+.accordion .accordion-item:last-child{
+    margin-bottom: 0rem !important;
+}
+.accordion-item .accordion-button::after{
+    content: '\002B';
+    background-image: none;
+    font-weight: 600;
+    color: rgba(35, 35, 35, 0.4);
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    border: 0.063rem solid rgba(35, 35, 35, 0.4);
+    background: #fff;
+    text-align: right;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0.938rem;
+    border-radius: 50%;
+}
+.accordion-item .accordion-button:not(.collapsed)::after {
+    content: '\002D';
+    color: var(--bs-primary);
+    background-image: none;
+    border-color: var(--bs-primary);
+}
+/* another question */
+.d2c_another_question{
+    border-radius: var(--border-radius);
+}
+.d2c_another_question img{
+    margin-left: -1.25rem;
+}
+
+
+/* ---------------------------------------------------
+    Timeline page
+----------------------------------------------------- */
+
+.d2c_trading_journey_timeline {
+    padding: 1.875rem;
+}
+.d2c_trading_timeline_content {
+    position: relative;
+}
+.d2c_trading_timeline_content .d2c_years {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    position: absolute;
+    top: 1.25rem;
+    right: -1.75rem;
+}
+.d2c_trading_timeline_content p i {
+    font-size: 0.5rem;
+    border: 0.063rem solid var(--bs-primary);
+    color: var(--bs-primary);
+    border-radius: 3.125rem;
+    padding: 0.188rem;
+}
+.d2c_trading_timeline_content p sup {
+    top: -0.188rem;
+    z-index: 11;
+}
+.d2c_trading_timeline_content .d2c_card_wrapper {
+    padding: 1.25rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    position: relative;
+}
+.d2c_trading_journey_timeline .d2c_trading_timeline_content:first-child::after,
+.d2c_trading_journey_timeline .d2c_trading_timeline_content:nth-child(3)::after {
+    content: '';
+    width: 0.063rem;
+    height: 100%;
+    background: var(--bs-primary);
+    position: absolute;
+    right: -0.5rem;
+    top: 1.875rem;
+    z-index: 0;
+}
+.d2c_trading_journey_timeline .d2c_trading_timeline_content:nth-child(4) .d2c_years {
+    left: -0.75rem;
+}
+
+/* ---------------------------------------------------
+    Timeline page
+----------------------------------------------------- */
+
+.d2c_timeline_wrapper {
+    padding: 6.25rem 0rem;
+}
+/* Card Style */
+.d2c_content_wrapper {
+    padding: 1.563rem 3.125rem 0rem;
+    text-align: center;
+}
+.d2c_content_wrapper p{
+    color: rgba(35, 35, 35, 0.4);
+}
+.d2c_card_body {
+    padding: 0rem 2.5rem 0rem 6.25rem;
+}
+.d2c_image_wrapper {
+    position: relative;
+    height: 31.875rem;
+}
+.d2c_image_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+.d2c_image_wrapper .d2c_overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(74.04deg, rgba(126, 54, 253, 0.44) 6.14%, rgba(126, 54, 253, 0) 152.02%);
+    border-radius: 0.25rem;
+}
+/* Tabs */
+.d2c_trading_chart_main {
+    border-bottom: 0rem;
+    padding: 0rem;
+}
+.d2c_trading_chart_main {
+    justify-content: space-around;
+    position: relative;
+}
+.d2c_trading_chart_main .nav-link {
+    border: none;
+    color: #fff;
+    position: relative;
+    margin: 0rem auto;
+    isolation: unset;
+    
+}
+.d2c_trading_chart_main .nav-link.active {
+    color: var(--bs-primary);
+    isolation: unset;
+}
+.d2c_trading_chart_main .nav-link.active .d2c_trading_chart_main .d2c_content_wrapper p{
+    color: red !important;
+}
+.d2c_trading_chart_main .nav-link:hover{
+    isolation: initial;
+}
+
+.d2c_trading_chart_main::after {
+    width: 100%;
+    content: '';
+    border: 0.063rem solid var(--bs-primary);
+    position: absolute;
+    top: 1.25rem;
+}
+
+.d2c_trading_chart_main .d2c_icon_wrapper {
+    background: #fff;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0.125rem solid var(--bs-primary);
+    border-radius: 50%;
+    padding: 0.625rem;
+}
+.d2c_trading_chart_content {
+    margin-top: 3.125rem;
+}
+.d2c_trading_chart_wrapper{
+    background: rgba(98, 113, 235, 0.07);
+}
+
+
+/* ---------------------------------------------------
+    transaction  page
+----------------------------------------------------- */
+
+.d2c_transaction_tab .nav-link{
+    color: var(--bs-secondary);
+    border: 0.063rem solid rgba(35, 35, 35, 0.2);
+    margin-right: 0.188rem;
+    background: var(--bs-white);
+}
+.d2c_transaction_tab .nav-link.active,.d2c_transaction_tab .show>.nav-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.d2c_transaction_table_content .dataTables_length,.d2c_transaction_table_content .dataTables_filter,.d2c_transaction_table_content .dataTables_info{
+    display: none;
+}
+.d2c_transaction_table_content .pagination{
+    margin-top: 0.75rem !important;
+}
+
+/* ---------------------------------------------------
+    activity  page
+----------------------------------------------------- */
+
+.d2c_activity_tab .nav-link{
+    color: var(--bs-secondary);
+    margin-right: 0.313rem;
+    background: rgba(98, 113, 235, 0.07);
+    font-weight: 500;
+}
+.d2c_activity_tab .nav-link.active,.d2c_activity_tab .show>.nav-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+.d2c_activity_table_content .dataTables_length,.d2c_activity_table_content .dataTables_filter,.d2c_activity_table_content .dataTables_info{
+    display: none;
+}
+.d2c_activity_table_content .pagination{
+    margin-top: 0.75rem !important;
+}
+
+/* ---------------------------------------------------
+    Market  page
+----------------------------------------------------- */
+
+.d2c_card_icon_wrapper{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.d2c_market_volume_tab .nav-link{
+    color: var(--bs-secondary);
+    margin-right: 0.313rem;
+    background: #EFFCF1;
+    font-weight: 500;
+}
+.d2c_market_volume_tab .nav-link.active,.d2c_market_volume_tab .show>.nav-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+
+/* ---------------------------------------------------
+    home  page
+----------------------------------------------------- */
+
+.d2c_trading_activities_wrapper .dataTables_length,.d2c_trading_activities_wrapper .dataTables_filter,
+.d2c_trading_activities_wrapper .dataTables_info,.d2c_trading_activities_wrapper .dataTables_paginate {
+    display: none;
+}
+
+.d2c_buy_sell__tab .nav-link{
+    color: var(--bs-secondary);
+    border: none;
+    margin-right: 0.188rem;
+}
+.d2c_buy_sell__tab .nav-link.active,.d2c_buy_sell__tab .show>.nav-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+/* dashboard progress bar */
+.d2c_dashboard_progressbar_1 {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),conic-gradient(#fc76b7 calc(var(--progress-value) * 1%), rgba(35, 35, 35, 0.04) 0);
+    animation: progress_4 2s 1 forwards;
+}
+
+.d2c_dashboard_progressbar_1::before {
+    animation: progress_4 2s 1 forwards;
+}
+/* you can change wallet balance value */
+@keyframes progress_4 {
+    to { --progress-value: 80; }
+}
+.d2c_dashboard_progressbar_2 {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),conic-gradient(#23cb62 calc(var(--progress-value) * 1%), #D0F4DA 0);
+    animation: progress_5 2s 1 forwards;
+}
+
+.d2c_dashboard_progressbar_2::before {
+    animation: progress_5 2s 1 forwards;
+}
+/* you can change earn balance value */
+@keyframes progress_5 {
+    to { --progress-value: 80; }
+}
+
+
+/* ---------------------------------------------------
+    profile  page
+----------------------------------------------------- */
+
+.d2c_profile_transaction_tab .nav-link{
+    color: var(--bs-secondary);
+    background: transparent;
+    font-weight: 500;
+    border: 0.063rem solid rgba(35, 35, 35, 0.2);
+    margin-right: 0.188rem;
+}
+.d2c_profile_transaction_tab .nav-link.active,.d2c_profile_transaction_tab .show>.nav-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.d2c_profile_transaction_content .dataTables_length,.d2c_profile_transaction_content .dataTables_filter,.d2c_profile_transaction_content .dataTables_info{
+    display: none;
+}
+.d2c_profile_info p{
+    font-size: 0.875rem;
+}
+.d2c_profile_info p a{
+    color: var(--bs-secondary);
+}
+.d2c_profile_info p i{
+    color: var(--bs-secondary);
+}
+.d2c_payment_method{
+    border-top: 0.063rem dashed rgba(35, 35, 35, 0.12);
+    border-bottom: 0.063rem dashed rgba(35, 35, 35, 0.12);
+}
+.d2c_profile_info .d2c_social_link{
+    border-bottom: 0.063rem dashed rgba(35, 35, 35, 0.12);
+}
+.d2c_profile_info .d2c_social_link a{
+    color: var(--bs-secondary);
+    margin-right: 0.5rem;
+}
+.d2c_profile_info .d2c_social_link a:hover{
+    color: var(--bs-success);
+}
+
+
+/* ---------------------------------------------------
+    wallet  page
+----------------------------------------------------- */
+
+
+@property --progress-value {
+    syntax: '<integer>';
+    inherits: false;
+    initial-value: 0;
+  }
+  /* you can change progressbar value change here */
+  @keyframes progress_1 {
+    to { --progress-value: 66; }
+  }
+  
+  @keyframes progress_2 {
+    to { --progress-value: 45; }
+  }
+  
+  @keyframes progress_3 {
+    to { --progress-value: 30; }
+  }
+  
+  .d2c_progress_bar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.188rem;
+  }
+  
+  .d2c_progress_bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+  }
+  
+  .d2c_progressbar_1 {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),conic-gradient(#6271eb calc(var(--progress-value) * 1%), rgba(35, 35, 35, 0.04) 0);
+    animation: progress_1 2s 1 forwards;
+  }
+  
+  .d2c_progressbar_1::before {
+    animation: progress_1 2s 1 forwards;
+  }
+  
+  .d2c_progressbar_2 {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),conic-gradient(#ffad53 calc(var(--progress-value) * 1%), rgba(35, 35, 35, 0.04) 0);
+    animation: progress_2 2s 1 forwards;
+  }
+  
+  .d2c_progressbar_2::before {
+    animation: progress_2 2s 1 forwards;
+  } 
+  
+  .d2c_progressbar_3 {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%, white 0),conic-gradient(#fc76b7 calc(var(--progress-value) * 1%), rgba(35, 35, 35, 0.04) 0);
+    animation: progress_3 2s 1 forwards;
+  }
+  
+  .d2c_progressbar_3::before {
+    animation: progress_3 2s 1 forwards;
+  }
+  progress {
+    visibility: hidden;
+    width: 0rem;
+    height: 0rem;
+  }
+
+  /*---------------------------------------------------
+    Email
+-----------------------------------------------------*/
+.d2c_mail_tab .nav .nav-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d2c_mail_tab .nav .nav-link {
+    color: var(--bs-dark);
+}
+.d2c_mail_tab .nav-pills .nav-link {
+    padding: 0.625rem 0;
+}
+.d2c_mail_tab .nav-pills .nav-link.active,
+.d2c_mail_tab .nav-pills .show > .nav-link {
+    background-color: transparent;
+    color: var(--bs-primary) !important;
+}
+
+.d2c_nav_arrow {
+    display: inline-flex;
+    align-items: center;
+}
+
+.d2c_mail_tab .btn.btn-light:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.d2c_mail_tab .form-control {
+    background: rgb(246 245 255);
+}
+
+.d2c_mail_tab .table > tbody > tr > * {
+    vertical-align: middle;
+    font-size: 0.875rem;
+}
+
+.d2c_mail_tab .table-hover > tbody > tr:hover > * {
+    color: initial;
+}
+
+.d2c_mail_tab .table th,
+.d2c_mail_tab .table td {
+    padding: 0.625rem 0.625rem !important;
+}
+
+.d2c_mail_tab .table button {
+    padding: 0;
+}
+
+.d2c_mail_tab .table .btn:first-child:active,
+.d2c_mail_tab .table :not(.btn-check) + .btn:active {
+    background-color: transparent;
+    color: var(--theme-color);
+    border-color: transparent;
+}
+
+.d2c_mail_tab .table tr .d2c_archive,
+.d2c_mail_tab .table tr .d2c_trash {
+    opacity: 0;
+    padding: 0rem 0.313rem;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.d2c_mail_tab .table tr:hover .d2c_archive,
+.d2c_mail_tab .table tr:hover .d2c_trash {
+    opacity: 1;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.d2c_mail_tab a {
+    text-decoration: none;
+}
+.d2c_mail_tab a {
+    color: var(--bs-dark);
+}
+
+.d2c_mail_tab .btn.active {
+    border-color: transparent;
+}
+
+.d2c_mail_tab .btn.active i {
+    color: var(--bs-warning);
+}
+
+.d2c_mail_tab .btn .d2c_mail_tab .table td.active::before {
+    content: 'New';
+    background: rgba(63, 81, 181, 0.1);
+    border-radius: 0.188rem;
+    -webkit-border-radius: 0.188rem;
+    -moz-border-radius: 0.188rem;
+    -ms-border-radius: 0.188rem;
+    -o-border-radius: 0.188rem;
+    padding: 0.125rem 0.313rem;
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+.tab-content .d2c_compose_mail .form-control {
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 0.063rem solid rgba(13, 16, 36, 0.08);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 0.5rem 0;
+}
+
+.tab-content .d2c_compose_mail .form-control::placeholder {
+    color: rgba(13, 16, 36, 0.8);
+}
+.d2c_mail_nav .d2c_mail_subject {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 10%;
+}
+
+.d2c_mail_nav .card {
+    border: 0.313rem solid rgba(33, 42, 57, 0.3);
+    border-radius: 0.875rem;
+    -webkit-border-radius: 0.875rem;
+    -moz-border-radius: 0.875rem;
+    -ms-border-radius: 0.875rem;
+    -o-border-radius: 0.875rem;
+}
+
+.d2c_mail_nav .btn{
+    padding: 0.375rem 0.938rem !important;
+}
+
+.d2c_mail_tab .card .card-header {
+    background-color: var(--bs-white);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tab-content .d2c_compose_mail button[type='submit'] {
+    max-width: max-content;
+    width: 100%;
+}
+
+/* File Uploader */
+.tab-content .d2c_compose_mail .file-uploader {
+    background-color: #dbefe9;
+    border-radius: 0.188rem;
+    color: #242424;
+}
+
+.tab-content .d2c_compose_mail .file-uploader__message-area {
+    font-size: 1.125rem;
+    padding: 1em;
+    text-align: center;
+    color: #377a65;
+}
+
+.tab-content .d2c_compose_mail .file-list {
+    background-color: white;
+    font-size: 1rem;
+}
+
+.tab-content .d2c_compose_mail .file-list__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-content .d2c_compose_mail .file-list li {
+    overflow: hidden;
+    width: 20%;
+    background: rgba(53, 87, 212, 0.07);
+    border-radius: 0.938rem;
+    list-style: none;
+    padding: 0.625rem 0.938rem;
+    -webkit-border-radius: 0.938rem;
+    -moz-border-radius: 0.938rem;
+    -ms-border-radius: 0.938rem;
+    -o-border-radius: 0.938rem;
+    margin-bottom: 0.625rem;
+}
+
+.tab-content .d2c_compose_mail .removal-button {
+    border: none;
+    background-color: transparent;
+}
+.tab-content .d2c_compose_mail .removal-button::before {
+    content: 'X';
+}
+.tab-content .d2c_compose_mail .removal-button:focus {
+    outline: 0;
+}
+
+.tab-content .d2c_compose_mail i {
+    padding: 0.5em;
+    cursor: pointer;
+}
+.tab-content .d2c_compose_mail .file-chooser p {
+    font-size: 1.125rem;
+    padding-top: 1em;
+}
+
+.tab-content .d2c_compose_mail .file-uploader {
+    max-width: 25rem;
+    height: auto;
+    margin: 2em auto;
+}
+.tab-content .d2c_compose_mail .file-uploader * {
+    display: block;
+}
+.tab-content .d2c_compose_mail .file-uploader input[type='submit'] {
+    margin-top: 2em;
+    float: right;
+}
+
+.tab-content .d2c_compose_mail .file-list {
+    padding-left: 0;
+}
+
+.tab-content .d2c_compose_mail .file-list__name {
+    max-width: 70%;
+    float: left;
+    color: var(--bs-primary);
+}
+
+.tab-content .d2c_compose_mail .removal-button {
+    display: inline-block;
+    float: right;
+}
+
+.tab-content .d2c_compose_mail .file-list li:after,
+.tab-content .d2c_compose_mail .file-uploader:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.tab-content .d2c_compose_mail .hidden {
+    display: none;
+}
+.tab-content .d2c_compose_mail .hidden input {
+    display: none;
+}
+
+.tab-content .d2c_compose_mail .error {
+    background-color: #d65d38;
+    color: white;
+}
+/* File Uploader */
+
+/* Email Custom Checkbox */
+.d2c_mail_tab .control {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.d2c_mail_tab .control input {
+    z-index: -1;
+    opacity: 0;
+}
+
+.d2c_mail_tab .control_indicator {
+    position: absolute;
+    top: 0.375rem;
+    left: 0;
+    height: 0.938rem;
+    width: 0.938rem;
+    background: #ffffff;
+    border: 0.063rem solid rgba(56, 56, 56, 0.5);
+    border-radius: 0.188rem;
+    -webkit-border-radius: 0.188rem;
+    -moz-border-radius: 0.188rem;
+    -ms-border-radius: 0.188rem;
+    -o-border-radius: 0.188rem;
+}
+
+.d2c_mail_tab .control:hover input ~ .control_indicator,
+.d2c_mail_tab .control input:focus ~ .control_indicator {
+    background: #f9f8ff;
+}
+
+.d2c_mail_tab .control input:checked ~ .control_indicator {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.d2c_mail_tab .control input:disabled ~ .control_indicator {
+    background: #f9f8ff;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.d2c_mail_tab .control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.d2c_mail_tab .control input:checked ~ .control_indicator:after {
+    display: block;
+}
+
+.d2c_mail_tab .control-checkbox .control_indicator:after {
+    left: 0.25rem;
+    top: 0.125rem;
+    width: 0.188rem;
+    height: 0.313rem;
+    border: solid #f9f8ff;
+    border-width: 0 0.125rem 0.125rem 0;
+    transform: rotate(45deg);
+}
+
+.d2c_mail_image_overlay{
+    background: linear-gradient(0deg, rgba(98, 113, 235, 0.6), rgba(98, 113, 235, 0.6));
+    transition: .4s all ease;
+}
+.d2c_mail_attachment_image:hover .d2c_mail_image_overlay{
+    opacity: 1 !important;
+    transition: .4s all ease;
+}
+.d2c_mail_footer [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    padding: 0rem !important;
+}
+.d2c_mail_footer [type="file"] + label {
+    cursor: pointer;
+}
+/* Custom Checkbox */
+
+
+/*---------------------------------------------------
+    EVENT CALENDER
+-----------------------------------------------------*/
+.d2c_event_calender .list-group .list-group-item {
+    padding: 0.2rem 0rem;
+    border: none;
+    background-color: transparent !important;
+    font-weight: 500;
+}
+
+.d2c_theme_light .d2c_event_calender .list-group .list-group-item {
+    color: var(--bs-dark);
+}
+
+.d2c_event_calender .list-group .list-group-item::before {
+    content: '';
+    height: 0.688rem;
+    width: 0.688rem;
+    border-radius: 0.125rem;
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    -ms-border-radius: 0.125rem;
+    -o-border-radius: 0.125rem;
+    background-color: var(--bs-secondary);
+    margin-right: 0.4rem;
+}
+
+.d2c_event_calender .list-group .list-group-item:nth-child(2):before {
+    background-color: var(--bs-warning);
+}
+.d2c_event_calender .list-group .list-group-item:nth-child(2){
+    color: var(--bs-warning);
+}
+
+.d2c_event_calender .list-group .list-group-item:nth-child(3):before {
+    background-color: var(--bs-danger);
+}
+.d2c_event_calender .list-group .list-group-item:nth-child(3){
+    color: var(--bs-danger);
+}
+
+.d2c_event_calender .list-group .list-group-item:nth-child(4):before {
+    background-color: var(--bs-success);
+}
+.d2c_event_calender .list-group .list-group-item:nth-child(4){
+    color: var(--bs-success);
+}
+
+.d2c_event_calender a {
+    text-decoration: none;
+}
+.fc a[data-navlink]{
+    color: rgba(35, 35, 35, 0.7);
+}
+.d2c_event_calender .fc-col-header-cell-cushion a {
+    color: rgba(35, 35, 35, 0.7);
+    font-weight: 600;
+}
+.fc-theme-standard th{
+    padding: 0.625rem !important;
+}
+.d2c_event_calender thead a{
+    color: var(--bs-success);
+}
+
+.fc .fc-button-primary {
+    background-color: rgba(98, 113, 235, 0.1) !important;
+    border: none !important;
+    color: var(--bs-primary) !important;
+    text-transform: capitalize !important;
+}
+.fc .fc-button-primary:focus{
+    box-shadow: none !important;
+}
+.fc .fc-toolbar-title{
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+.fc .fc-button {
+    border-radius: 0.188rem !important;
+    -webkit-border-radius: 0.188rem !important;
+    -moz-border-radius: 0.188rem !important;
+    -ms-border-radius: 0.188rem !important;
+    -o-border-radius: 0.188rem !important;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin-left: -0.063rem !important;
+}
+.fc-scrollgrid{
+    background: #EFFCF1;
+    border-radius: var(--border-radius);
+    border: none !important;
+}
+.fc .fc-scrollgrid-section-header>*,.fc .fc-scrollgrid-section-liquid>td{
+    padding: 0rem !important;
+}
+.fc-scrollgrid-sync-table tbody tr td:last-child{
+    border-right: 0rem !important;
+}
+.fc-h-event .fc-event-title{
+    vertical-align: middle !important;
+    padding: 0rem 0.625rem !important;
+    font-size: 0.75rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    
+}
+.fc-day{
+    padding: 0.625rem 0.625rem 0rem 0rem !important;
+}
+
+/*---------------------------------------------------
+    Button page
+-----------------------------------------------------*/
+.d2c_hover_btn {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.938rem;
+    text-align: center;
+    border: 0.063rem solid var(--bs-primary);
+    color: var(--bs-primary);
+    z-index: 0;
+    background: var(--bs-white);
+} 
+.d2c_hover_btn:hover{
+    color: var(--bs-white);
+    border-color: var(--bs-primary);
+}
+.d2c_hover_btn::before,.d2c_hover_btn::after{
+    position: absolute;
+    content: "";
+    background: var(--bs-primary);
+    transition-duration: 0.3s;
+    z-index: -1;
+    opacity: 1;
+}
+/* top */
+.btn_fill_top::before {
+    inset: auto auto 0rem 0rem;
+    width: 100%;
+    height: 0rem;
+} 
+.btn_fill_top:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+/* right */
+.btn_fill_right::before {
+    inset: 0rem auto auto 0rem;
+    width: 0rem;
+    height: 100%;
+} 
+.btn_fill_right:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+/* down */
+.btn_fill_down::before {
+    inset: 0rem auto auto 0rem;
+    width: 100%;
+    height: 0rem;
+} 
+.btn_fill_down:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+/* left */
+.btn_fill_left::before {
+    inset: 0rem 0rem auto auto;
+    width: 0rem;
+    height: 100%;
+} 
+.btn_fill_left:hover::before {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+} 
+/* middle */
+.btn_fill_middle::before {
+    inset: auto auto 0rem 0rem;
+    width: 100%;
+    height: 0rem;
+} 
+.btn_fill_middle:hover::before {
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+} 
+.btn_fill_middle::after {
+    inset: 0rem auto auto 0rem;
+    width: 100%;
+    height: 0rem;
+} 
+.btn_fill_middle:hover::after {
+    height: 50%;
+} 
+/* horizontal middle */
+.btn_fill_middle_horizontal::before {
+    inset: 0rem 0rem auto auto;
+    width: 0rem;
+    height: 100%;
+} 
+.btn_fill_middle_horizontal:hover::before {
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+} 
+.btn_fill_middle_horizontal::after {
+    inset: 0rem auto auto 0rem;
+    width: 0rem;
+    height: 100%;
+} 
+.btn_fill_middle_horizontal:hover::after {
+    width: 50%;
+} 
+
+/* details button css */
+/* detail top */
+.d2c_detail_btn {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 1.25rem;
+    margin: 0rem 0.188rem 0.375rem;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    background: var(--bs-white);
+    color: var(--bs-primary);
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    z-index: 0;
+} 
+.d2c_detail_btn::after{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.25rem;
+    content: "";
+    border: 0.125rem solid var(--bs-primary);
+    z-index: 2;
+    margin: 0rem;
+    transition: border-bottom-width 0.1s ease 0.2s, height 0.2s ease 0.1s, width 0.2s ease 0s, margin 0.2s ease 0s;
+}
+.d2c_detail_top {
+    position: relative;
+    transition-duration: 0.3s;
+    overflow: visible;
+    box-sizing: border-box;
+    border: none;
+    padding: 0.625rem 1.375rem;
+} 
+.d2c_detail_top::after {
+    top: 0rem;
+    right: 0rem;
+    border-bottom-width: 0.125rem;
+} 
+.d2c_detail_top:hover::after {
+    width: 60%;
+    height: 0rem;
+    border-width: 0.125rem 0.125rem 0rem;
+    margin: 0rem 20%;
+    transition: border-bottom-width 0.1s ease 0s, height 0.2s ease 0.1s, width 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+} 
+/* detail right */ 
+.d2c_detail_right::after{
+    bottom: 0rem;
+    right: 0rem;
+    border-left-width: 0.125rem;
+    transition: border-left-width 0.1s ease 0.2s, width 0.2s ease 0.1s, height 0.2s ease 0s, margin 0.2s ease 0s;
+}
+.d2c_detail_right:hover::after {
+    width: 0rem;
+    height: 60%;
+    border-width: 0.125rem 0.125rem 0.125rem 0rem;
+    margin: 5% 0rem;
+    transition: border-left-width 0.1s ease 0s, width 0.2s ease 0.1s, height 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+} 
+/* detail bottom */
+.d2c_detail_bottom::after{
+    left: 0rem;
+    bottom: 0rem;
+    border-top-width: 0.125rem;
+    transition: border-top-width 0.1s ease 0.2s, height 0.2s ease 0.1s, width 0.2s ease 0s, margin 0.2s ease 0s;
+}
+.d2c_detail_bottom:hover::after {
+    width: 60%;
+    height: 0rem;
+    border-width: 0rem 0.125rem 0.125rem;
+    margin: 0rem 20%;
+    transition: border-top-width 0.1s ease 0s, height 0.2s ease 0.1s, width 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+} 
+/* detail bottom */
+.d2c_detail_left::after{
+    bottom: 0rem;
+    left: 0rem;
+    border-right-width: 0.125rem;
+    transition: border-right-width 0.1s ease 0.2s, width 0.2s ease 0.1s, height 0.2s ease 0s, margin 0.2s ease 0s;
+}
+.d2c_detail_left:hover::after {
+    width: 0rem;
+    height: 60%;
+    border-width: 0.125rem 0rem 0.125rem 0.125rem;
+    margin: 5% 0rem;
+    transition: border-right-width 0.1s ease 0s, width 0.2s ease 0.1s, height 0.2s ease 0.2s, margin 0.2s ease 0.2s;
+} 
+
+/*---------------------------------------------------
+    Advanced Form page
+-----------------------------------------------------*/
+
+#d2c_form_step {
+    max-width: 100%;
+}
+#d2c_form_step .d2c_step_form_header {
+    gap: 0.313rem;
+    text-align: center;
+    font-size: 0.9em;
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator {
+    position: relative;
+    flex: 1;
+    padding-bottom: 1.25rem;
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.active {
+    font-weight: 700;
+    color: var(--bs-primary);
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.finish {
+    font-weight: 600;
+    color: var(--bs-secondary);
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 9;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #d7ddf6;
+    border-radius: 50%;
+    border: 0.188rem solid #ecf5f4;
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.active::before {
+    background-color: var(--bs-primary);
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.finish::before {
+    background-color: var(--bs-success);
+    border: 0.188rem solid #bef2da;
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.5rem;
+    width: 100%;
+    height: 0.063rem;
+    background-color: #f3f3f3;
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.active::after {
+    background-color: var(--bs-primary);
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator.finish::after {
+    background-color: var(--bs-success);
+}
+#d2c_form_step .d2c_step_form_header .stepIndicator:last-child:after {
+    display: none;
+}
+#d2c_form_step input,
+#d2c_form_step textarea {
+    width: 100%;
+    background-color: #e7f9ec;
+    border: 0.063rem solid rgba(229, 227, 242, 0.5);
+    border-radius: 0.313rem;
+    padding: 0.5rem 1.25rem;
+    color: rgba(56, 56, 56, 0.6);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+#d2c_form_step input:focus,
+#d2c_form_step textarea:focus {
+    border: 0.063rem solid #009688;
+    outline: 0;
+}
+#d2c_form_step input.invalid,
+#d2c_form_step textarea.invalid {
+    border-color: #ffaba5 !important;
+}
+#d2c_form_step .step {
+    display: none;
+}
+#d2c_form_step .form-footer {
+    overflow: auto;
+    gap: 1.25rem;
+}
+#d2c_form_step .form-footer #prevBtn {
+    background-color: #fff;
+    color: var(--bs-primary);
+}
+.ck-editor__editable{
+    height: 15.625rem;
+}
+
+/* multi step form validation */
+.stepwizard-step p {
+    margin-top: 0.625rem;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    position: relative;
+}
+.stepwizard-row:before {
+    top: 1.25rem;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 0.063rem;
+    background-color: #ccc;
+    z-index: 0;
+}               
+.stepwizard-step {                             
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    margin: 0 auto;
+    background: var(--bs-primary);
+}
+.btn-circle:hover{
+    background: var(--bs-primary);
+}
+/*---------------------------------------------------
+    editor page
+-----------------------------------------------------*/
+#editor {
+    height: 21.875rem;
+}
+.tox-notifications-container,.tox-statusbar__branding,.ck-powered-by{
+    display: none;
+}
+
+/*---------------------------------------------------
+    advanced table page
+-----------------------------------------------------*/
+.dt-button{
+    background: transparent !important;
+    border-color: var(--bs-primary) !important;
+    color: var(--bs-primary) !important;
+}
+.dt-button:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.dt-button-active{
+    box-shadow: none !important;
+    outline: none !important;
+    background: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    color: var(--bs-white) !important;
+}
+
+/* ---------------------------------------------------
+    Pagination page
+----------------------------------------------------- */
+
+.page-item {
+    background: transparent;
+}
+
+.page-link {
+    color: var(--bs-dark);
+    font-weight: 600;
+    padding: 0.625rem 1.063rem;
+    border-color: #EBEBEB;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.d2c_flat_pagination .page-link {
+    border-color: transparent;
+}
+
+.d2c_rounded_pagination .page-item:first-child .page-link {
+    border-top-left-radius: 2.688rem;
+    border-bottom-left-radius: 2.688rem;
+}
+
+.d2c_rounded_pagination .page-item:last-child .page-link {
+    border-top-right-radius: 2.688rem;
+    border-bottom-right-radius: 2.688rem;
+}
+
+.d2c_separated_pagination .page-link {
+    margin: 0.313rem;
+    border-radius: 0.375rem;
+}
+
+.d2c_separated_rounded .page-link {
+    border-radius: 50% !important;
+    margin: 0.313rem;
+    width: 2.813rem;
+    height: 2.813rem;
+    padding: 0.313rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d2c_custom_pagination .page-item {
+    display: flex;
+    align-items: center;
+}
+
+.d2c_separated_pagination .page-link {
+    margin: 0rem 0.313rem;
+    border-radius: 0.375rem;
+}
+.d2c_custom_pagination .page-link{
+    background: transparent;
+    border-color: transparent;
+}
+.d2c_custom_pagination .d2c_page_number {
+    width: 2.188rem;
+    height: 2.188rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d2c_custom_pagination .page-item.active .page-link {
+    background: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+/* ---------------------------------------------------
+    Card page
+----------------------------------------------------- */
+.d2c_basic_card .card-img-top{
+    height: 14.375rem;
+    object-fit: cover;
+}
+.d2c_horizontal_card .card-img-top{
+    object-fit: cover;
+}
+.card-img-overlay{
+    background: linear-gradient(0deg, rgb(63 81 181 / 50%), rgb(63 81 181 / 50%));
+}
+
+/* 
+    Template Name: {{FundRows – Free Bootstrap Crypto Dashboard Template}}
+    Template URL: {{https://www.designtocodes.com/product/fundrows-free-crypto-dashboard-template/}}
+    Description: {{Build a user-friendly crypto dashboard with FundRows free crypto dashboard template. Enjoy full responsiveness, and customizable for your crypto projects. With FundRows, developers can create a unique crypto admin dashboard that is visually impressive.}}
+    Author: DesignToCodes
+    Author URL: https://www.designtocodes.com
+    Text Domain: {{ FundRows }}
+  */
